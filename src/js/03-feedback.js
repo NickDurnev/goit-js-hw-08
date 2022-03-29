@@ -15,7 +15,6 @@ function saveData() {
         message: messageInput.value,
     }
     localStorage.setItem(storageKey, JSON.stringify(input));
-    console.log(localStorage);
 }
 
 function checkInputStorage() {
